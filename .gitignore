@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# ML artifacts
+backend/artifacts/model.pt
+backend/artifacts/*.pkl
+backend/artifacts/eval/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
